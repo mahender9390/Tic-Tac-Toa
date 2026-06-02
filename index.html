@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+    <div class="containar">
+        <div class="choice">
+            <div>
+                <p>CHOOSE YOUR CHOICE</p>
+            </div>
+            <div class="chbtn">
+                <button onclick="selected(this)" style="background-color: red;">X</button>
+                <button onclick="selected(this)" style="background-color: green;">O</button>
+            </div>
+        </div>
+        <div class="winner">
+            <h1 style="color: darkblue;">WINNER IS</h1>
+            <p></p>
+            <div>
+                <button onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <div class="layout1">
+            <div class="playerchoise">
+                <p style="color: red;">PLAYER 1:</p>
+                <p style="color: green;">PLAYER 2:</p>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                    <div class="b">
+                        <button onclick="play(this)">
+                            <div class="inbtn"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="reset" onclick="reset()">RESET</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
